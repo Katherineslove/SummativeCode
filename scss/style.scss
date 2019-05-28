@@ -1,85 +1,3 @@
-@import 'variables';
-
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    background-color: $mainColour;
-}
-
-.pageContainer {
-    max-width: 100%;
-    height: 1100px;
-    margin: 0 auto;
-}
-
-h1 {
-    @include h1;
-}
-
-h3 {
-    @include h3;
-}
-
-h4 {
-    border: $borderSize solid $mainColour;
-} 
-
-h5 {
-    @include h5; 
-}
-
-#logo {
-    width: 730px;
-    height: 330px;
-    position: relative;
-    float: left;
-    left: 38px;
-    top: 50px;
-}
-
-//---------------------------------
-
-#nav{
-    width: 1050px;
-    height: 100px;
-    position: relative;
-    float: right;
-    right: 30px;
-    top: 100px;
-}
-
-#nav a {
-    text-align: center;
-    width: 209.6px;
-    font-family: $navFont;
-    float: left;
-    color: $mainColour;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    text-decoration: none;
-    font-size: 45px;
-    background-color: $basicColour;
-    border-radius: 10px 10px 0px 0px;
-    border: 1px solid $mainColour;
-}
-
-#nav a.active {
-    background-color: $secondaryColour;
-}
-
-//---------------------------------
-
-#menu {
-    width: 1045px;
-    height: 950px;
-    position: relative;
-    float: right;
-    right: 33px;
-    top: 100px;
-    background-color: $basicColour;
-}
-
 .eggs {
     margin-left: 20px;
     width: 80%;
@@ -228,56 +146,6 @@ h5 {
     right: 20px;
     top: 760px;
 }
-
-//---------------------------------
-
-#snacks{
-    width: 728px;
-    height: 750px;
-    position: relative;
-    float: left;
-    left: 53px;
-    bottom: 699px;
-    background-color: $basicColour;
-}
-
-#snacksTitle {
-    width: 740px;
-    height: 100px;
-    position: absolute;
-    left: -1px;
-}
-
-#snacksTitle a {
-    width: 730px;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    float: left;
-    color: $mainColour;
-    padding: 14px 61px 16px;
-    text-decoration: none;
-    font-size: 45px;
-    background-color: $basicColour;
-    border-radius: $tabRadius;
-    border: 1px solid $mainColour;
-}
-
-#snacksTitle a.active {
-    background-color: $secondaryColour;
-}
-
-button {
-    border: 2px dashed $mainColour;
-    padding: 4px 4px 4px 4px;
-    position: relative;
-    top: 650px;
-    float: left;
-    left: 215px;
-    font: 40px $navFont;
-    background-color: white;
-}
-
-//---------------------------------
 
 .garlic {
     position: absolute;
@@ -498,12 +366,12 @@ button {
     .pageContainer {
         height: 1300px;
     }
-    
+
     #logo {
         left: 105px;
         top: 5px;
     }
-    
+
     #nav{
         width: 866px;
         height: 97px;
@@ -518,14 +386,14 @@ button {
         padding-bottom: 20px;
         font-size: 37px;
     }
-    
+
     button {
         border: 2px dashed $mainColour;
         padding: 6px 6px 6px 6px;
         top: -100px;
         left: 293px;
     }
-    
+
     #menu {
         height: 840px;
         width: 864px;
@@ -533,7 +401,7 @@ button {
         left: 78px;
         top: 10px;
     }
-    
+
     #snacks{
         height: 660px;
         width: 864px;
@@ -541,11 +409,11 @@ button {
         left: 76px;
         margin-bottom: 20px;
     }
-    
+
     #snacksTitle {
         width: 866px;
     }
-    
+
     #snacksTitle a {
         width: 866px;
         padding: 14px 61px 16px;
@@ -554,278 +422,205 @@ button {
 }
 
 @media screen and (max-width: 375px) {
-      h1 {
-        font-family: "Carrois Gothic", sans-serif;
-        font-size: 20px; }
-
-      h3 {
-        margin-top: 0;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 17px; }
-
-      h5 {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 17px; }
-
-    //---------------------------------
-
-      .pageContainer {
-          width: 374px;
-        background-color: black;
-        height: 647px; }
-
-      #logo {
-        width: 370px;
-        height: 205px;
-        left: -6px;
-        top: 5px; }
-
-      #logo img {
-        width: 379px;
-        height: 200px; }
-
-      #nav {
-        width: 374px;
-        height: 68px;
-        left: 0px;
-        top: 5px; }
-
-      #nav a {
-        width: 74.8px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        font-size: 18px; }
-    
-      button {
-        font-size: 28px;
-        top: -67px;
-        left: 73px;}
-
-    //---------------------------------
-
-      #menu {
-        width: 371px;
-        height: 735px;
-        left: 1px;
-        top: 5px; }
-
-        .eggs {
-            margin-left: 7px;
-            margin-top: 15px;
-        }
-
-        .eggsPrice {
-            top: 34px;
-        }
-
-        .bene {
-            margin-left: 7px;
-            margin-top: 10px;
-        }
-
-        .benePrice {
-            top: 129px;
-        }
-
-        .flo {
-            margin-left: 7px;
-            margin-top: 0px;
-        }
-
-        .floPrice {
-            top: 213px;
-        }
-
-        .big {
-            margin-left: 7px;
-            margin-top: 0px;
-        }
-
-        .bigPrice {
-            top: 298px;
-        }
-
-        .veggie {
-            margin-left: 7px;
-            margin-top: 35px;
-        }
-
-        .veggiePrice {
-            top: 480px;
-        }
-
-        .avo {
-            margin-left: 7px;
-            margin-top: 15px;
-        }
-
-        .avoPrice {
-            top: 569px;
-        }
-
-        .french {
-            margin-left: 7px;
-            margin-top: 15px;
-        }
-
-        .frenchPrice {
-            top: 666px;
-        }
-    
-    //---------------------------------
-
-      #snacks {
-        width: 371px;
-        height: 562px;
-        top: 84px;
-        left: 2px;
-        margin-bottom: 2px; }
-
-      #snacksTitle {
-        width: 374px;
-        height: 68px; }
-
-      #snacksTitle a {
-        width: 373px;
-        height: 68px;
-        font-size: 28px; }
-    
-    //---------------------------------
-
-      .donut {
-        margin-left: 8px;
-        margin-top: 15px; }
-
-      .donutPrice {
-        right: 20px;
-        top: 45px; }
-    
-    //---------------------------------
-
-      .berry {
-        margin-left: 8px;
-        margin-top: 0; }
-
-      .berryPrice {
-        right: 20px;
-        top: 129px; }
-    
-    //---------------------------------
-
-      .kiss {
-        margin-left: 8px;
-        margin-top: 20px; }
-
-      .kissPrice {
-        right: 20px;
-        top: 200px; }
-    
-    //---------------------------------
-
-      .cheese {
-        margin-left: 8px;
-        margin-top: 9px; }
-
-      .cheesePrice {
-        top: 295px; 
-        }
-    
-    //---------------------------------
-
-      .garlic {
-        top: 74px;
+    .eggs {
         margin-left: 7px;
-        margin-top: 0px; }
-
-      .garlicPrice {
-        bottom: 18px;
-        right: -66px; }
-    
-    //---------------------------------
-
-      .fries {
-        top: 110px;
-        margin-left: 7px;
-        margin-top: 15px; }
-
-      .friesPrice {
-        bottom: 13px;
-        right: -66px; }
-    
-    //---------------------------------
-
-      .wings {
-        top: 160px;
         margin-top: 15px;
-        margin-left: 7px; }
-
-      .wingsPrice {
-        bottom: 13px;
-        right: -57px; }
-    
-    //---------------------------------
-
-      .squid {
-        top: 217px;
-        margin-top: 15px;
-        margin-left: 7px; }
-
-      .squidPrice {
-        bottom: 13px;
-        right: -57px; }
-    
-    //---------------------------------
-
-      .chips {
-        top: 277px;
-        margin-top: 15px;
-        margin-left: 7px; }
-
-      .chipsPrice {
-        bottom: 20px;
-        right: -57px; }
-    
-    //---------------------------------
-
-      .waffle {
-        top: 334px;
-        margin-left: 7px;
-        margin-top: 15px; }
-
-      .wafflePrice {
-        bottom: 20px;
-        right: -57px; }
-    
-    //---------------------------------
-
-      .spicy {
-        top: 390px;
-        margin-left: 7px;
-        margin-top: 15px; }
-
-      .spicyPrice {
-        bottom: 20px;
-        right: -57px; }
-    
-    //---------------------------------
-
-      .sweetcorn {
-        top: 448px;
-        margin-left: 7px;
-        margin-top: 15px; }
-
-      .sweetcornPrice {
-        bottom: 20px;
-        right: -57px; }
-    
-    //---------------------------------
-
-      .beef {
-        top: 502px;
-        margin-left: 7px;
-        margin-top: 15px; }
-
-      .beefPrice {
-        bottom: 20px;
-        right: -57px; } 
     }
+
+    .eggsPrice {
+        top: 34px;
+    }
+
+    .bene {
+        margin-left: 7px;
+        margin-top: 10px;
+    }
+
+    .benePrice {
+        top: 129px;
+    }
+
+    .flo {
+        margin-left: 7px;
+        margin-top: 0px;
+    }
+
+    .floPrice {
+        top: 213px;
+    }
+
+    .big {
+        margin-left: 7px;
+        margin-top: 0px;
+    }
+
+    .bigPrice {
+        top: 298px;
+    }
+
+    .veggie {
+        margin-left: 7px;
+        margin-top: 35px;
+    }
+
+    .veggiePrice {
+        top: 480px;
+    }
+
+    .avo {
+        margin-left: 7px;
+        margin-top: 15px;
+    }
+
+    .avoPrice {
+        top: 569px;
+    }
+
+    .french {
+        margin-left: 7px;
+        margin-top: 15px;
+    }
+
+    .frenchPrice {
+        top: 666px;
+    }
+
+//---------------------------------
+
+  .donut {
+    margin-left: 8px;
+    margin-top: 15px; }
+
+  .donutPrice {
+    right: 20px;
+    top: 45px; }
+
+//---------------------------------
+
+  .berry {
+    margin-left: 8px;
+    margin-top: 0; }
+
+  .berryPrice {
+    right: 20px;
+    top: 129px; }
+
+//---------------------------------
+
+  .kiss {
+    margin-left: 8px;
+    margin-top: 20px; }
+
+  .kissPrice {
+    right: 20px;
+    top: 200px; }
+
+//---------------------------------
+
+  .cheese {
+    margin-left: 8px;
+    margin-top: 9px; }
+
+  .cheesePrice {
+    top: 295px;
+    }
+
+//---------------------------------
+
+  .garlic {
+    top: 74px;
+    margin-left: 7px;
+    margin-top: 0px; }
+
+  .garlicPrice {
+    bottom: 18px;
+    right: -66px; }
+
+//---------------------------------
+
+  .fries {
+    top: 110px;
+    margin-left: 7px;
+    margin-top: 15px; }
+
+  .friesPrice {
+    bottom: 13px;
+    right: -66px; }
+
+//---------------------------------
+
+  .wings {
+    top: 160px;
+    margin-top: 15px;
+    margin-left: 7px; }
+
+  .wingsPrice {
+    bottom: 13px;
+    right: -57px; }
+
+//---------------------------------
+
+  .squid {
+    top: 217px;
+    margin-top: 15px;
+    margin-left: 7px; }
+
+  .squidPrice {
+    bottom: 13px;
+    right: -57px; }
+
+//---------------------------------
+
+  .chips {
+    top: 277px;
+    margin-top: 15px;
+    margin-left: 7px; }
+
+  .chipsPrice {
+    bottom: 20px;
+    right: -57px; }
+
+//---------------------------------
+
+  .waffle {
+    top: 334px;
+    margin-left: 7px;
+    margin-top: 15px; }
+
+  .wafflePrice {
+    bottom: 20px;
+    right: -57px; }
+
+//---------------------------------
+
+  .spicy {
+    top: 390px;
+    margin-left: 7px;
+    margin-top: 15px; }
+
+  .spicyPrice {
+    bottom: 20px;
+    right: -57px; }
+
+//---------------------------------
+
+  .sweetcorn {
+    top: 448px;
+    margin-left: 7px;
+    margin-top: 15px; }
+
+  .sweetcornPrice {
+    bottom: 20px;
+    right: -57px; }
+
+//---------------------------------
+
+  .beef {
+    top: 502px;
+    margin-left: 7px;
+    margin-top: 15px; }
+
+  .beefPrice {
+    bottom: 20px;
+    right: -57px; }
+}
