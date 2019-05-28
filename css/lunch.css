@@ -1,0 +1,467 @@
+.cab {
+  margin-left: 20px;
+  width: 80%;
+  height: 85px;
+  background-color: white;
+  margin-top: 25px;
+  padding-top: 5px;
+  padding-left: 15px; }
+
+.cabPrice {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  right: 20px;
+  top: 47px; }
+
+.fish {
+  margin-left: 20px;
+  width: 80%;
+  height: 85px;
+  background-color: white;
+  margin-top: 25px;
+  padding-top: 5px;
+  padding-left: 15px; }
+
+.fishPrice {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  right: 20px;
+  top: 160px; }
+
+.steak {
+  margin-left: 20px;
+  width: 80%;
+  height: 85px;
+  background-color: white;
+  margin-top: 25px;
+  padding-top: 5px;
+  padding-left: 15px; }
+
+.steakPrice {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  right: 20px;
+  top: 270px; }
+
+.salmon {
+  margin-left: 20px;
+  width: 80%;
+  height: 50px;
+  background-color: white;
+  margin-top: 25px;
+  padding-top: 5px;
+  padding-left: 15px; }
+
+.salmonPrice {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  right: 20px;
+  top: 360px; }
+
+.bacon {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 80%;
+  height: 90px;
+  background-color: white;
+  margin-top: 35px;
+  padding-top: 5px;
+  padding-left: 15px; }
+
+.baconPrice {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  right: 20px;
+  top: 459px; }
+
+.bacon a {
+  text-decoration: none; }
+
+.buttermilk {
+  margin-left: 20px;
+  width: 80%;
+  height: 85px;
+  background-color: white;
+  margin-top: 25px;
+  padding-top: 5px;
+  padding-left: 15px; }
+
+.buttermilkPrice {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  right: 20px;
+  top: 575px; }
+
+.pizza {
+  margin-left: 20px;
+  width: 80%;
+  height: 85px;
+  background-color: white;
+  margin-top: 25px;
+  padding-top: 5px;
+  padding-left: 15px; }
+
+.pizzaPrice {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  right: 20px;
+  top: 692px; }
+
+.garlic {
+  position: absolute;
+  background-color: white;
+  top: 90px;
+  margin-left: 20px;
+  width: 80%;
+  height: 45px;
+  margin-top: 25px;
+  padding-top: 5px;
+  padding-left: 15px; }
+
+.garlicPrice {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  bottom: 13px;
+  right: -105px; }
+
+.garlic a {
+  text-decoration: none; }
+
+.fries {
+  position: absolute;
+  background-color: white;
+  top: 150px;
+  margin-left: 20px;
+  width: 80%;
+  height: 45px;
+  margin-top: 25px;
+  padding-top: 5px;
+  padding-left: 15px; }
+
+.friesPrice {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  bottom: 13px;
+  right: -105px; }
+
+.wings {
+  position: absolute;
+  background-color: white;
+  top: 210px;
+  margin-left: 20px;
+  width: 80%;
+  height: 45px;
+  margin-top: 25px;
+  padding-top: 5px;
+  padding-left: 15px; }
+
+.wingsPrice {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  bottom: 13px;
+  right: -105px; }
+
+.squid {
+  position: absolute;
+  background-color: white;
+  top: 270px;
+  margin-left: 20px;
+  width: 80%;
+  height: 45px;
+  margin-top: 25px;
+  padding-top: 5px;
+  padding-left: 15px; }
+
+.squidPrice {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  bottom: 13px;
+  right: -105px; }
+
+.chips {
+  position: absolute;
+  background-color: white;
+  top: 330px;
+  margin-left: 20px;
+  width: 80%;
+  height: 45px;
+  margin-top: 25px;
+  padding-top: 5px;
+  padding-left: 15px; }
+
+.chipsPrice {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  bottom: 13px;
+  right: -105px; }
+
+.waffle {
+  position: absolute;
+  background-color: white;
+  top: 390px;
+  margin-left: 20px;
+  width: 80%;
+  height: 45px;
+  margin-top: 25px;
+  padding-top: 5px;
+  padding-left: 15px; }
+
+.wafflePrice {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  bottom: 13px;
+  right: -105px; }
+
+.waffle a {
+  text-decoration: none; }
+
+.spicy {
+  position: absolute;
+  background-color: white;
+  top: 450px;
+  margin-left: 20px;
+  width: 80%;
+  height: 45px;
+  margin-top: 25px;
+  padding-top: 5px;
+  padding-left: 15px; }
+
+.spicyPrice {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  bottom: 13px;
+  right: -105px; }
+
+.sweetcorn {
+  position: absolute;
+  background-color: white;
+  top: 510px;
+  margin-left: 20px;
+  width: 80%;
+  height: 45px;
+  margin-top: 25px;
+  padding-top: 5px;
+  padding-left: 15px; }
+
+.sweetcornPrice {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  bottom: 13px;
+  right: -105px; }
+
+.beef {
+  position: absolute;
+  background-color: white;
+  top: 570px;
+  margin-left: 20px;
+  width: 80%;
+  height: 45px;
+  margin-top: 25px;
+  padding-top: 5px;
+  padding-left: 15px; }
+
+.beefPrice {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  bottom: 13px;
+  right: -105px; }
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 375px) {
+
+  .cab {
+    margin-left: 7px;
+    margin-top: 15px; }
+
+  .cabPrice {
+    top: 47px; }
+
+  .fish {
+    margin-left: 7px;
+    margin-top: 0px; }
+
+  .fishPrice {
+    top: 125px; }
+
+  .steak {
+    margin-left: 7px;
+    margin-top: 10px; }
+
+  .steakPrice {
+    top: 225px; }
+
+  .salmon {
+    margin-left: 7px;
+    margin-top: 22px; }
+
+  .salmonPrice {
+    top: 300px; }
+
+  .bacon {
+    margin-top: 5px;
+    margin-left: 7px; }
+
+  .baconPrice {
+    top: 388px; }
+
+  .buttermilk {
+    margin-left: 7px;
+    margin-top: 15px; }
+
+  .buttermilkPrice {
+    top: 515px; }
+
+  .pizza {
+    margin-left: 7px;
+    margin-top: 40px; }
+
+  .pizzaPrice {
+    top: 618px; }
+
+  .donut {
+    margin-left: 8px;
+    margin-top: 15px; }
+
+  .donutPrice {
+    right: 20px;
+    top: 45px; }
+
+  .berry {
+    margin-left: 8px;
+    margin-top: 0; }
+
+  .berryPrice {
+    right: 20px;
+    top: 129px; }
+
+  .kiss {
+    margin-left: 8px;
+    margin-top: 20px; }
+
+  .kissPrice {
+    right: 20px;
+    top: 200px; }
+
+  .cheese {
+    margin-left: 8px;
+    margin-top: 9px; }
+
+  .cheesePrice {
+    top: 295px; }
+
+  .garlic {
+    top: 74px;
+    margin-left: 7px;
+    margin-top: 0px; }
+
+  .garlicPrice {
+    bottom: 18px;
+    right: -66px; }
+
+  .fries {
+    top: 110px;
+    margin-left: 7px;
+    margin-top: 15px; }
+
+  .friesPrice {
+    bottom: 13px;
+    right: -66px; }
+
+  .wings {
+    top: 160px;
+    margin-top: 15px;
+    margin-left: 7px; }
+
+  .wingsPrice {
+    bottom: 13px;
+    right: -57px; }
+
+  .squid {
+    top: 217px;
+    margin-top: 15px;
+    margin-left: 7px; }
+
+  .squidPrice {
+    bottom: 13px;
+    right: -57px; }
+
+  .chips {
+    top: 277px;
+    margin-top: 15px;
+    margin-left: 7px; }
+
+  .chipsPrice {
+    bottom: 20px;
+    right: -57px; }
+
+  .waffle {
+    top: 334px;
+    margin-left: 7px;
+    margin-top: 15px; }
+
+  .wafflePrice {
+    bottom: 20px;
+    right: -57px; }
+
+  .spicy {
+    top: 390px;
+    margin-left: 7px;
+    margin-top: 15px; }
+
+  .spicyPrice {
+    bottom: 20px;
+    right: -57px; }
+
+  .sweetcorn {
+    top: 448px;
+    margin-left: 7px;
+    margin-top: 15px; }
+
+  .sweetcornPrice {
+    bottom: 20px;
+    right: -57px; }
+
+  .beef {
+    top: 502px;
+    margin-left: 7px;
+    margin-top: 15px; }
+
+  .beefPrice {
+    bottom: 20px;
+    right: -57px; } }
+
+/*# sourceMappingURL=lunch.css.map */
