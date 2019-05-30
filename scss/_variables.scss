@@ -1,7 +1,7 @@
 $mainColour: black;
 $secondaryColour: #c8c8c8;
 $basicColour: white;
-$borderSize:2px;
+$borderSize: 2px;
 $maxWidth: 100%;
 $navFont:'Oswald', sans-serif;
 $mainFont: 'Open Sans', sans-serif;
@@ -32,7 +32,7 @@ $border: 1px solid $mainColour;
     font-family: $mainFont;
     font-size: 25px;
     font-weight: 100px;
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
 @mixin h6 {
